@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../base
-- vote-gtw.yaml
+- vote-staging-gtw.yaml
 - vote-staging-httproute.yaml
 - vote-preview-staging-httproute.yaml
 namespace: staging

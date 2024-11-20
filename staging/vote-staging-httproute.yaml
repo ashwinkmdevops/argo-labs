@@ -9,7 +9,7 @@ spec:
       sectionName: http
       kind: Gateway
   hostnames:
-    - vote.192.168.71.240.sslip.io
+    - vote-staging.192.168.71.240.sslip.io
   rules:
     - matches:
         - path:
